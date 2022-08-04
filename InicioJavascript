@@ -1,0 +1,16 @@
+"use strict"
+
+//**Escribe un programa de una sola 
+//línea que escriba en la pantalla el 
+//resultado de sumar 3 + 5. */
+
+
+//variables declarando los numeros enteros
+var num1 = 3;
+var num2 = 5;
+
+//variable para declarar la suma de los num1 y num2
+var suma = 3 + 5;
+
+//imprime en la pantalla el resultado de la variable suma
+document.write (Number(suma));
