@@ -1,0 +1,12 @@
+"use strict"
+
+//**Escribe un programa de tres líneas que
+//pida un número, pida otro número y escriba
+//el resultado de sumar estos dos números. */
+
+//variables para que ingrese los numeros a sumar
+var num1 = prompt ("ingresa un numero");
+var num2 = prompt ("ingresa otro numero");
+
+//variable que da el resultado de los 2 numeros ingresados
+var resultado = alert( parseInt(num1) + parseInt(num2));
