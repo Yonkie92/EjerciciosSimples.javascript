@@ -1,0 +1,22 @@
+"use strict"
+
+//**Escribe un programa
+//que pida dos números y escriba
+//en la pantalla cual es el mayor. */
+
+
+//variables para que ingrese 2 numeros
+var num1 = prompt ("ingrese un numero");
+var num2 = prompt ("ingrese otro numero");
+
+//condicion if para evaluar
+if (num1 < num2){
+
+    document.write("el numero " + num1 + " es menor que " + num2); //si es menor
+} 
+    else if (num1 == num2){
+        document.write("el numero " + num1 + " es igual que " + num2); //si es igual
+    }
+    else if (num1 > num2){
+        document.write("el numero " + num1 + " es mayor que " + num2); //si es mayor
+}
