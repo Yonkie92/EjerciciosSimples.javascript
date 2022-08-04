@@ -1,0 +1,15 @@
+"use strict"
+
+/*Escribe un programa que pida
+un número y diga si es divisible por 2*/
+
+
+//variable int para ingresar un numero
+var n1 = parseInt(prompt("Escribe un número"));
+
+//condicion que evalua si es divisible x 2
+if (n1 % 2 === 0) {
+alert("Es divisible por 2");
+} else {
+alert("No es divisible por 2");
+}
