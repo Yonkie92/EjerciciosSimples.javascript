@@ -1,0 +1,23 @@
+"use strict"
+
+/*Escribe un programa que 
+pida 3 números y escriba en 
+la pantalla el mayor de los tres.*/
+
+
+const num1 = parseFloat(prompt("Enter first number: "));
+const num2 = parseFloat(prompt("Enter second number: "));
+const num3 = parseFloat(prompt("Enter third number: "));
+let largest;
+
+if(num1 >= num2 && num1 >= num3) {
+    largest = num1;
+}
+else if (num2 >= num1 && num2 >= num3) {
+    largest = num2;
+}
+else {
+    largest = num3;
+}
+
+alert("The largest number is " + largest);
