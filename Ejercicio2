@@ -1,0 +1,12 @@
+"use strict"
+
+//**Escribe un programa de dos líneas que
+// pida el nombre del usuario con un prompt
+// y escriba un texto que diga “Hola nombreUsuario” */
+
+//ingreso por medio de teclado su nombre
+var nombre = prompt ("ingresa tu nombre de usuario");
+
+
+//saludo por medio de alerta con nombre que ingreso el usuario
+alert("Bienvenido " + nombre + " a mi ejercicio de Javascript");
